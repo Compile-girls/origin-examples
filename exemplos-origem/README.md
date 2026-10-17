@@ -69,3 +69,31 @@ Os arquivos estão separados por tema, com nomes descritivos e comentários expl
 
 Cada exemplo busca demonstrar o funcionamento dos recursos estudados por meio de uma aplicação prática.
 
+
+## 🔄 Programação Assíncrona e Ractors
+
+O arquivo `programacao_assincrona_e_ractors.rb` apresenta conceitos de concorrência em Ruby por meio de duas abordagens:
+
+- **Programação assíncrona:** utiliza a gem `async` para organizar tarefas que podem progredir enquanto outras aguardam.
+- **Ractors:** recurso nativo do Ruby que permite executar tarefas com isolamento de estado e comunicação por mensagens.
+
+### Dependências
+
+- Ruby instalado e configurado no ambiente.
+- Gem `async`, instalada com o comando:
+
+  ```bash
+  gem install async
+  ```
+
+### Como executar
+
+Dentro da pasta `exemplos-origem`, execute:
+
+```bash
+ruby programacao_assincrona_e_ractors.rb
+```
+
+O exemplo simula tarefas de documentação e desenvolvimento de código e demonstra o processamento de tarefas associadas às integrantes do grupo.
+
+> **Observação:** a gem `async` é uma dependência externa. Os Ractors fazem parte do Ruby e não exigem a instalação de uma gem adicional. A disponibilidade e o comportamento dos recursos podem variar conforme a versão do Ruby e o ambiente de execução.
