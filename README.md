@@ -25,7 +25,7 @@ Os exemplos foram elaborados para demonstrar diferentes conceitos da linguagem, 
 ## 📂 Estrutura do repositório
 
 ```text
-📦 repositorio-compiladores
+📦 origin-examples
 ├── 📄 README.md
 └── 📁 exemplos-origem
     ├── 📄 README.md
